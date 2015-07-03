@@ -2,7 +2,7 @@ language: c
 sudo: true
 before_install:
   - sh ./scripts/install-travis-prereqs.sh
-script:
+before_deploy:
   - lilypond test1.ly
   - sh ./scripts/compile-ly-files.sh
   - tar czvf output.tar.gz `find * -regex ".*\.pdf$"`
