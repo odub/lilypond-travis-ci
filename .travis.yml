@@ -4,3 +4,5 @@ before_install:
   - sh ./scripts/install-travis-prereqs.sh
 script:
   - lilypond test1.ly
+  - sh ./scripts/compile-ly-files.sh
+  - tar czvf output.tar.gz `find * -regex ".*\.pdf$"`
