@@ -10,7 +10,7 @@ deploy:
   provider: releases
   api_key: 
     secure: "h5vGQQp+R/vDoIikbmAZXfzGGgmrAyshQuDxiubSfmNHqI8VuRXiH9ClKmRiijJjdIauowSqyP9/aCQO7JmMRRuuS+TdM7P1NxFUPRdAdK1KZHgamyy9L1Fb79Yqks5qzvZzXt7AjG7reMYZzDQKUgPbJ0I1hfo4Mdy3Ff728/9ZYa+UQ+i7k64CiyJSCsWdVfr/CPrxf+kft1pSlrRKye4i+HmkWuTafJNYlAmoajYOJ35RHjshH1uwWppPBU/uuj7r6whiwdxDowqItSL21uBJ8vEJal3LfLxj/O5CLrteZv/BA7Wr6KkVY95TbYSTAyvq3kD/Lk6qK43EukeICoHLdMop/WkVdLg0j0ITuHX3tmDhoT69RKqZGe74TNaABBW7vqu09Qre9M+Pw2mMU41vr97bCuNSTCFAGJLXKMuB/J+oGqpA+BTEjmywOzpKoU/UoLVxR+dWyowN+qqRx8/MBBGeviMYYAASO9li7P94JqBR4dAXWBk+bqeu9Pt4QuBZ5Rx6zhCz7/U2m0A7SLDwusnW2XuTpB5fiyvF6YQZ06wa5amcFsL43/2iO0Di4FeJ20sv07HV4svFxZasrFgLS5U0hzLH6Fu2u0eTRCCnUSYJ86zpySv5KPLwwH1E47McUj/TkWemCWKezt+DWM/od5y5pWjm1IzTo0kpOFY="
-  file: "test1.pdf"
+  file: "output.tar.gz"
   skip_cleanup: true
   on:
     tags: true
